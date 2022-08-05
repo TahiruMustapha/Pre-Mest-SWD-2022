@@ -1,0 +1,68 @@
+
+.hero{
+   width: 100%;
+    background:hsl(30, 38%, 92%);
+    height: 100vh;   
+}
+.hero .hero-content{
+    display: flex;
+    width: 600px;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px; 
+    padding-bottom: 80px;
+   
+}
+
+.hero-content img{
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+
+}
+.hero-content .info{
+     width: 300px;
+     background: whitesmoke;
+     border-top-right-radius: 5px;
+     padding-left: 30px;
+}
+.info-p1{
+    font-size: 0.6rem;
+    letter-spacing: 5px;
+    color: #444;
+}
+.brand{
+    font-size: 2.3rem;
+    font-weight: 900px;
+}
+.info-p2{
+    color: #444;
+    line-height: 25px;
+}
+.price{
+    font-family: 'Fraunces', serif;
+    font-size: 2.3rem;
+    font-weight: 800px;
+    color: rgb(26,66,26);
+}
+.price span{
+    color: #444;
+    font-size: 1.3rem;
+    
+}
+button{
+    background: rgb(26,66,26);
+    color:white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 15px 60px;
+    margin-bottom: 30px;
+
+}
+.info button img{
+    width: 15px;
+    padding-right: 5px;
+       
+}
